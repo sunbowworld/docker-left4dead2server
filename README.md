@@ -1,7 +1,7 @@
 Docker image for Left 4 Dead 2 server
 =====================================
 
-[Docker Hub](https://cloud.docker.com/u/sunbowworld/repository/docker/sunbowworld/left4dead2server)
+[Docker Hub](https://hub.docker.com/r/sunbowworld/left4dead2server)
 
 # Usage
 
