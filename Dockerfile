@@ -38,6 +38,10 @@ RUN /usr/games/steamcmd +login anonymous +quit \
   && ln -s /home/appuser/.steam/steamcmd/linux32/steamclient.so /home/appuser/.steam/sdk32/steamclient.so \
   && /usr/games/steamcmd +login anonymous +force_install_dir /home/appuser/l4d2server +app_update 222860 validate +quit
 
+# Install Metamod:Source
+COPY --chown=appuser:appuser ./left4dead2/addons/metamod /home/appuser/l4d2server/left4dead2/addons/metamod
+COPY --chown=appuser:appuser ./left4dead2/addons/metamod.vdf /home/appuser/l4d2server/left4dead2/addons/metamod.vdf
+
 
 COPY --chown=appuser:appuser server.cfg.tpl /home/appuser/server.cfg.tpl
 COPY --chown=appuser:appuser entrypoint.sh /home/appuser/entrypoint.sh
