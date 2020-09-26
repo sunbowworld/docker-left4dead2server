@@ -22,9 +22,9 @@ RUN /bin/bash -c ' \
   && echo "deb-src http://mirrors.linode.com/debian stretch main non-free" >> /etc/apt/sources.list.d/linode.list \
   && apt-get update \
   && apt-get install -y --no-install-recommends \
-    ca-certificates=20161130+nmu1+deb9u1 \
-    gettext=0.19.8.1-2 \
-    steamcmd=0~20130205-1 \
+    ca-certificates \
+    gettext \
+    steamcmd \
   && apt-get clean \
   && rm -rf /var/lib/apt/list/* \
   && groupadd -g 61000 appuser \
