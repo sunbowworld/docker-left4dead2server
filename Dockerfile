@@ -39,8 +39,8 @@ RUN /usr/games/steamcmd +login anonymous +quit \
   && /usr/games/steamcmd +login anonymous +force_install_dir /home/appuser/l4d2server +app_update 222860 validate +quit
 
 # Install Metamod:Source
-COPY --chown=appuser:appuser ./left4dead2/addons/metamod /home/appuser/l4d2server/left4dead2/addons/metamod
-COPY --chown=appuser:appuser ./left4dead2/addons/metamod.vdf /home/appuser/l4d2server/left4dead2/addons/metamod.vdf
+COPY --chown=appuser:appuser ./addons/metamod/addons/metamod /home/appuser/l4d2server/left4dead2/addons/metamod
+COPY --chown=appuser:appuser ./addons/metamod/addons/metamod.vdf /home/appuser/l4d2server/left4dead2/addons/metamod.vdf
 
 
 COPY --chown=appuser:appuser server.cfg.tpl /home/appuser/server.cfg.tpl
