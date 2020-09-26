@@ -1,6 +1,6 @@
 #!/bin/bash
 
-envsubst < /home/appuser/server.cfg.tpl > /home/appuser/server.cfg
+envsubst < /home/appuser/server.cfg.tpl > /home/appuser/l4d2server/left4dead2/cfg/server.cfg
 
 /home/appuser/l4d2server/srcds_run \
   -console \
@@ -8,6 +8,4 @@ envsubst < /home/appuser/server.cfg.tpl > /home/appuser/server.cfg
   -strictportbind \
   -ip 0.0.0.0 \
   -port 27015 \
-  +maxplayers 12 \
-  +exec /home/appuser/server.cfg \
-  +map c5m1_waterfront
+  +maxplayers 12
