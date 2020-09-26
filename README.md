@@ -14,6 +14,10 @@ docker run -p 27015:27015 -p 27015:27015/udp sunbowworld/left4dead2server
 * `SV_HOSTNAME`
 * `SV_RCON_PASSWORD`
 
+# Addons
+
+* [Metamod](https://www.metamodsource.net/) v1.10.7-971
+
 # References
 
 * [Install SteamCMD for a Steam Game Server](https://www.linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/)
