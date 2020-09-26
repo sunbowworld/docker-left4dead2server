@@ -17,6 +17,7 @@ docker run -p 27015:27015 -p 27015:27015/udp sunbowworld/left4dead2server
 # Addons
 
 * [Metamod](https://www.metamodsource.net/) v1.10.7-971
+* [Sourcemod](https://www.sourcemod.net/downloads.php?branch=1.7-dev) v1.7.3-5334
 
 # References
 

@@ -43,6 +43,11 @@ COPY --chown=appuser:appuser ./addons/metamod/addons/metamod /home/appuser/l4d2s
 COPY --chown=appuser:appuser ./addons/metamod/addons/metamod.vdf /home/appuser/l4d2server/left4dead2/addons/metamod.vdf
 
 
+# Install Sourcemod
+
+COPY --chown=appuser:appuser ./addons/sourcemod/addons /home/appuser/l4d2server/left4dead2/addons
+COPY --chown=appuser:appuser ./addons/sourcemod/cfg /home/appuser/l4d2server/left4dead2/cfg
+
 COPY --chown=appuser:appuser server.cfg.tpl /home/appuser/server.cfg.tpl
 COPY --chown=appuser:appuser entrypoint.sh /home/appuser/entrypoint.sh
 
