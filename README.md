@@ -17,13 +17,8 @@ docker run -p 27015:27015 -p 27015:27015/udp sunbowworld/left4dead2server
 * `SV_RCON_PASSWORD`
 
 
-# Addons
-
-* [Metamod:Source](https://www.metamodsource.net/) v1.10.7-971
-* [SourceMod](https://www.sourcemod.net/downloads.php?branch=1.7-dev) v1.7.3-5334
-
-
 # References
 
+* [SirPlease/L4D2-Competitive-Rework: Just refreshing and optimizing the core files a bit, eh?](https://github.com/SirPlease/L4D2-Competitive-Rework)
 * [Install SteamCMD for a Steam Game Server](https://www.linode.com/docs/game-servers/install-steamcmd-for-a-steam-game-server/)
 * [Left 4 Dead 2 Multiplayer Server Installation](https://www.linode.com/docs/game-servers/left-4-dead-2-multiplayer-server-installation/)
