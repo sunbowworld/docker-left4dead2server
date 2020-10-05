@@ -50,6 +50,7 @@ COPY --chown=appuser:appuser ./L4D2-Competitive-Rework/myhost.txt /home/appuser/
 COPY --chown=appuser:appuser ./L4D2-Competitive-Rework/mymotd.txt /home/appuser/l4d2server/left4dead2/
 
 COPY --chown=appuser:appuser admins_simple.ini /home/appuser/l4d2server/left4dead2/addons/sourcemod/configs/
+COPY --chown=appuser:appuser ./left4dead2 /home/appuser/l4d2server/left4dead2
 COPY --chown=appuser:appuser server.cfg.tpl /home/appuser/server.cfg.tpl
 COPY --chown=appuser:appuser entrypoint.sh /home/appuser/entrypoint.sh
 
